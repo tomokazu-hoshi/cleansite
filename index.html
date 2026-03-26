@@ -72,7 +72,7 @@
             transform: translateY(-2px);
         }
 
-        /* Recent Rankings Section (ダミー) */
+        /* Recent Rankings Section */
         .recent-rankings .ranking-link {
             display: flex;
             justify-content: space-between;
@@ -90,6 +90,11 @@
 
         /* Footer */
         footer { text-align: center; padding: 30px; background-color: #1e293b; color: #94a3b8; margin-top: 60px; font-size: 12px; }
+        
+        /* Responsive adjustments for mobile */
+        @media (max-width: 600px) {
+            .recent-rankings .ranking-link { flex-direction: column; align-items: flex-start; gap: 5px; }
+        }
     </style>
 </head>
 <body>
@@ -119,10 +124,12 @@
 
     <section class="recent-rankings">
         <h2 class="section-title">最新のクリーンランキング</h2>
-        <a href="#" class="ranking-link">
-            <span class="ranking-title">【2026年最新】競合不在？ニッチな○○徹底比較ランキング</span>
+        
+        <a href="horse-racing/prediction-tools.html" class="ranking-link">
+            <span class="ranking-title">【忖度なし】競馬データ分析・予想ツール徹底比較ランキング</span>
             <span class="ranking-date">2026.03.26</span>
         </a>
+        
         <a href="#" class="ranking-link">
             <span class="ranking-title">データで紐解く、本当にコスパの良い△△トップ5</span>
             <span class="ranking-date">2026.03.20</span>
