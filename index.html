@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>クリーンサイト | データに基づく純粋なランキング</title>
+    <style>
+        /* Reset & Base */
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body { 
+            font-family: 'Helvetica Neue', Arial, 'Hiragino Kaku Gothic ProN', 'Hiragino Sans', Meiryo, sans-serif; 
+            background-color: #f8fafc; 
+            color: #333; 
+            line-height: 1.6; 
+        }
+        a { text-decoration: none; color: inherit; }
+
+        /* Concept Banner (全ページ共通) */
+        .concept-banner {
+            background-color: #1e293b;
+            color: #f8fafc;
+            text-align: center;
+            padding: 12px 20px;
+            font-size: 13px;
+        }
+        .concept-banner span { color: #38bdf8; font-weight: bold; }
+
+        /* Header */
+        header { 
+            background-color: #ffffff; 
+            color: #1e293b; 
+            padding: 25px 0; 
+            text-align: center; 
+            border-bottom: 3px solid #38bdf8;
+        }
+        header h1 { font-size: 32px; font-weight: 800; letter-spacing: 2px; }
+        header p { font-size: 14px; color: #64748b; margin-top: 5px; font-weight: bold; }
+
+        /* Main Container */
+        .container { max-width: 900px; margin: 40px auto; padding: 0 20px; }
+
+        /* Category Section */
+        .category-section { margin-bottom: 50px; }
+        .section-title { 
+            font-size: 22px; 
+            color: #0f172a; 
+            margin-bottom: 20px; 
+            border-left: 5px solid #38bdf8; 
+            padding-left: 10px;
+        }
+        
+        .category-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+        }
+        .category-card {
+            background: #ffffff;
+            border: 1px solid #e2e8f0;
+            border-radius: 8px;
+            padding: 20px;
+            text-align: center;
+            font-weight: bold;
+            color: #334155;
+            transition: all 0.2s ease;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.02);
+        }
+        .category-card:hover {
+            border-color: #38bdf8;
+            background-color: #f0f9ff;
+            color: #0369a1;
+            transform: translateY(-2px);
+        }
+
+        /* Recent Rankings Section (ダミー) */
+        .recent-rankings .ranking-link {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: #ffffff;
+            padding: 15px 20px;
+            border-radius: 8px;
+            margin-bottom: 10px;
+            border: 1px solid #e2e8f0;
+            transition: background 0.2s ease;
+        }
+        .recent-rankings .ranking-link:hover { background: #f8fafc; }
+        .ranking-title { font-weight: bold; color: #0f172a; }
+        .ranking-date { font-size: 12px; color: #94a3b8; }
+
+        /* Footer */
+        footer { text-align: center; padding: 30px; background-color: #1e293b; color: #94a3b8; margin-top: 60px; font-size: 12px; }
+    </style>
+</head>
+<body>
+
+<div class="concept-banner">
+    【クリーンサイトの約束】アフィリエイト報酬に忖度せず、<span>AI(Gemini)がデータを客観的に分析した純粋なランキング</span>だけをお届けします。
+</div>
+
+<header>
+    <h1>クリーンサイト</h1>
+    <p>データが導く、本当に価値あるモノ・コト</p>
+</header>
+
+<div class="container">
+    
+    <section class="category-section">
+        <h2 class="section-title">カテゴリーからランキングを探す</h2>
+        <div class="category-grid">
+            <a href="#" class="category-card">💻 ガジェット・家電</a>
+            <a href="#" class="category-card">🏠 日用品・インテリア</a>
+            <a href="#" class="category-card">🌐 Webサービス・アプリ</a>
+            <a href="#" class="category-card">💼 ビジネス・学習</a>
+            <a href="#" class="category-card">🏕️ アウトドア・趣味</a>
+            <a href="#" class="category-card">🔍 その他マニアック比較</a>
+        </div>
+    </section>
+
+    <section class="recent-rankings">
+        <h2 class="section-title">最新のクリーンランキング</h2>
+        <a href="#" class="ranking-link">
+            <span class="ranking-title">【2026年最新】競合不在？ニッチな○○徹底比較ランキング</span>
+            <span class="ranking-date">2026.03.26</span>
+        </a>
+        <a href="#" class="ranking-link">
+            <span class="ranking-title">データで紐解く、本当にコスパの良い△△トップ5</span>
+            <span class="ranking-date">2026.03.20</span>
+        </a>
+    </section>
+
+</div>
+
+<footer>
+    <p>&copy; 2026 クリーンサイト All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
