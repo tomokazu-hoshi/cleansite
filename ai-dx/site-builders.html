@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>【維持費ゼロ】AI時代の個人サイト・ブログ構築プラットフォーム比較｜クリーンサイト</title>
+    <title>【維持費ゼロ】AI時代の個人サイト・ブログ構築プラットフォーム忖度なし比較｜クリーンサイト</title>
     <style>
         /* Base Styles */
         * { box-sizing: border-box; margin: 0; padding: 0; }
@@ -51,6 +51,13 @@
         .related-title::before { content: "📖"; margin-right: 10px; }
         .related-link { display: block; background: #fff; padding: 15px; border-radius: 6px; margin-bottom: 10px; font-weight: bold; color: #0369a1; border: 1px solid #e2e8f0; transition: all 0.2s ease; }
         .related-link:hover { background: #e0f2fe; border-color: #7dd3fc; }
+
+        /* Editor's Note (Admin Column) - NEW */
+        .editor-note { margin-top: 40px; padding: 25px; background: #ffffff; border-radius: 8px; border: 2px dashed #38bdf8; position: relative; }
+        .editor-note-title { font-size: 18px; color: #1e293b; font-weight: bold; margin-bottom: 10px; display: flex; align-items: center; }
+        .editor-note-title::before { content: "🖋️"; margin-right: 10px; }
+        .editor-note p { font-size: 14px; color: #475569; margin-bottom: 15px; }
+        .admin-link { font-weight: bold; color: #0284c7; text-decoration: underline; }
 
         /* Footer */
         footer { text-align: center; padding: 20px; background-color: #1e293b; color: #94a3b8; font-size: 12px; }
@@ -118,79 +125,38 @@
     <div class="ranking-item rank-1">
         <div class="rank-header">
             <div class="rank-icon">1</div>
-            <h3 class="rank-title">GitHub Pages × 生成AI（最強のゼロコスト構築）</h3>
+            <h3 class="rank-title">GitHub Pages × 生成AI</h3>
         </div>
-        <p>プログラマー向けのサービスですが、Geminiなどの優秀な生成AIに「HTMLとCSSを書いて」と指示を出せる人にとっては、まさに最強の鉾と盾になります。サーバー代が一生無料な上、余計なデータベース通信が発生しないため、Googleが最も高く評価する「表示スピードが爆速のサイト」を作ることができます。アフィリエイト報酬が一切発生しないため、他の比較サイトでは絶対に1位になりません。</p>
+        <p>サーバー代が一生無料な上、余計なデータベース通信が発生しないため、Googleが最も高く評価する「表示スピードが爆速のサイト」を作ることができます。</p>
         <div class="merit-demerit">
-            <div class="merit">
-                <h4>メリット</h4>
-                <ul>
-                    <li>半永久的にサーバー維持費が「完全無料」</li>
-                    <li>ページ表示速度が圧倒的に速く、SEOで非常に有利</li>
-                    <li>AIにコードを書かせることで、デザインの自由度が無限大</li>
-                </ul>
-            </div>
-            <div class="demerit">
-                <h4>デメリット（注意点）</h4>
-                <ul>
-                    <li>HTML/CSSの基礎知識、またはAIへ的確に指示を出すスキルが必要</li>
-                    <li>スマホからの更新はブラウザ版（Safari等）を経由する必要がある</li>
-                </ul>
-            </div>
+            <div class="merit"><h4>メリット</h4><ul><li>維持費が完全無料</li><li>SEOに強い表示速度</li></ul></div>
+            <div class="demerit"><h4>デメリット</h4><ul><li>一定のITスキルが必要</li></ul></div>
         </div>
     </div>
 
     <div class="ranking-item">
-        <div class="rank-header">
-            <div class="rank-icon" style="background: #94a3b8;">2</div>
-            <h3 class="rank-title">STUDIO（スタジオ）</h3>
-        </div>
-        <p>日本発のノーコード（コードを書かずにサイトが作れる）Web制作ツールです。パワーポイントを操作するような感覚で、非常におしゃれでモダンなサイトが直感的に作れます。無料プランでも十分な機能が備わっており、ポートフォリオや企業サイトの立ち上げによく使われます。</p>
-        <div class="merit-demerit">
-            <div class="merit">
-                <h4>メリット</h4>
-                <ul>
-                    <li>コードの知識が「完全ゼロ」でもプロ級のデザインが作れる</li>
-                    <li>美しい日本語フォント（モリサワなど）が無料で使える</li>
-                </ul>
-            </div>
-            <div class="demerit">
-                <h4>デメリット（注意点）</h4>
-                <ul>
-                    <li>無料プランだとサイトの端に「STUDIO」の小さなロゴが入る</li>
-                    <li>数千ページ規模のメガサイト構築にはシステム上向いていない</li>
-                </ul>
-            </div>
-        </div>
+        <div class="rank-header"><div class="rank-icon" style="background: #94a3b8;">2</div><h3 class="rank-title">STUDIO</h3></div>
+        <p>ノーコードで美しいデザイン。直感的にサイトを立ち上げたい人向け。</p>
     </div>
 
     <div class="ranking-item">
-        <div class="rank-header">
-            <div class="rank-icon" style="background: #b45309;">3</div>
-            <h3 class="rank-title">WordPress.org（ワードプレス）</h3>
-        </div>
-        <p>世界のWebサイトの約4割を占める絶対的王者です。専用のレンタルサーバー（有料）を契約する必要がありますが、ネット上に無数のカスタマイズ情報や無料テーマが転がっているため、トラブルが起きても自己解決しやすいのが特徴です。</p>
-        <div class="merit-demerit">
-            <div class="merit">
-                <h4>メリット</h4>
-                <ul>
-                    <li>プラグイン（拡張機能）を入れるだけで、お問い合わせフォームや目次が簡単に作れる</li>
-                    <li>メガサイト（大規模メディア）の管理に特化している</li>
-                </ul>
-            </div>
-            <div class="demerit">
-                <h4>デメリット（注意点）</h4>
-                <ul>
-                    <li>毎月のサーバー代とドメイン代（約1,000円〜）が必ず発生する</li>
-                    <li>プラグインを入れすぎるとサイトが重くなり、SEOの評価が落ちる原因になる</li>
-                </ul>
-            </div>
-        </div>
+        <div class="rank-header"><div class="rank-icon" style="background: #b45309;">3</div><h3 class="rank-title">WordPress.org</h3></div>
+        <p>有料だが、圧倒的な情報量と拡張性が魅力の王者。</p>
+    </div>
+
+    <div class="editor-note">
+        <div class="editor-note-title">編集後記：管理人の挑戦</div>
+        <p>
+            実は管理人自身も、今回の1位である「GitHub × Gemini」の完全無料構成を使って、別サイト「<a href="https://x.com/Zero_Cost_SEO" target="_blank" class="admin-link">Zero-Cost-SEO</a>」を日々構築しています。
+        </p>
+        <p>
+            今はまだ生まれたばかりの小さなサイトですが、AIを駆使して「コストゼロ」でどこまで戦えるか、自分自身で人体実験中です。いつかこの「クリーンサイト」のAIデータ判定で、堂々のランキング1位を獲得できるような、最高の価値を持つメディアに育てるのが密かな目標です！
+        </p>
+        <p style="font-size: 12px; color: #94a3b8;">※このコラムは管理人の個人的な目標であり、ランキングの順位には一切影響していません。</p>
     </div>
 
     <div class="related-articles">
         <h3 class="related-title">この記事を読んだ方におすすめのランキング</h3>
-        <p style="font-size: 14px; margin-bottom: 15px; color: #64748b;">サイトを作った後に必須となる、自動化ツールの忖度なし比較です。</p>
         <a href="zero-cost-seo-sns.html" class="related-link">▶ 【完全無料】ゼロコストSEO＆X(旧Twitter)運用を自動化！最強AI・DXツールランキング</a>
         <a href="free-tools.html" class="related-link">▶ 【完全無料】コストゼロで激変！業務効率化AI・DXツール最強ランキング</a>
     </div>
