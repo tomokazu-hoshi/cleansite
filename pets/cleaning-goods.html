@@ -9,137 +9,65 @@
         * { box-sizing: border-box; margin: 0; padding: 0; }
         body { font-family: 'Helvetica Neue', Arial, sans-serif; background-color: #f8fafc; color: #333; line-height: 1.6; }
         a { text-decoration: none; color: #0369a1; }
-        
-        /* Header */
         header { background-color: #ffffff; padding: 20px 0; text-align: center; border-bottom: 3px solid #38bdf8; }
         header h1 { font-size: 24px; color: #1e293b; }
-        
-        /* Breadcrumb */
-        .breadcrumb { max-width: 900px; margin: 15px auto; padding: 0 20px; font-size: 13px; color: #64748b; }
-        
-        /* Main Content */
-        .container { max-width: 900px; margin: 0 auto 40px; padding: 0 20px; }
+        .breadcrumb { max-width: 800px; margin: 15px auto; padding: 0 20px; font-size: 13px; color: #64748b; }
+        .container { max-width: 800px; margin: 0 auto 40px; padding: 0 20px; }
         .article-title { font-size: 28px; margin-bottom: 20px; color: #0f172a; border-left: 5px solid #38bdf8; padding-left: 15px; }
         .article-lead { margin-bottom: 30px; padding: 15px; background: #fff; border-radius: 8px; border: 1px solid #e2e8f0; }
-
-        /* スクロールアニメーション */
-        @keyframes hand-move {
-            0% { transform: translateX(-10px); }
-            50% { transform: translateX(10px); }
-            100% { transform: translateX(-10px); }
-        }
+        @keyframes hand-move { 0% { transform: translateX(-10px); } 50% { transform: translateX(10px); } 100% { transform: translateX(-10px); } }
         .scroll-hint-container { display: none; text-align: center; margin-bottom: 10px; }
         @media (max-width: 600px) { .scroll-hint-container { display: block; } }
-        .scroll-hint {
-            display: inline-flex;
-            align-items: center;
-            background: #f0f9ff;
-            border: 1px solid #38bdf8;
-            border-radius: 20px;
-            padding: 5px 15px;
-            font-size: 12px;
-            color: #0369a1;
-            font-weight: bold;
-        }
+        .scroll-hint { display: inline-flex; align-items: center; background: #f0f9ff; border: 1px solid #38bdf8; border-radius: 20px; padding: 5px 15px; font-size: 12px; color: #0369a1; font-weight: bold; }
         .hand-icon { font-size: 16px; margin: 0 8px; animation: hand-move 1.5s infinite ease-in-out; }
-
-        /* Comparison Table */
         .comparison-wrapper { overflow-x: auto; margin-bottom: 40px; border-radius: 8px; border: 1px solid #e2e8f0; }
         .comparison-table { width: 100%; border-collapse: collapse; background: #fff; text-align: center; min-width: 650px; }
         .comparison-table th, .comparison-table td { border-bottom: 1px solid #e2e8f0; padding: 12px; border-right: 1px solid #f1f5f9; }
         .comparison-table th { background-color: #f1f5f9; color: #334155; font-weight: bold; }
         .comparison-table .highlight { background-color: #fffbeb; font-weight: bold; color: #b45309; }
-
-        /* Ranking Item */
         .ranking-item { background: #fff; border-radius: 8px; padding: 25px; margin-bottom: 30px; border-top: 4px solid #38bdf8; box-shadow: 0 2px 4px rgba(0,0,0,0.05); }
         .rank-header { display: flex; align-items: center; margin-bottom: 15px; border-bottom: 1px solid #eee; padding-bottom: 10px; }
         .rank-icon { font-size: 24px; font-weight: bold; margin-right: 15px; color: #fff; background: #1e293b; width: 40px; height: 40px; display: flex; align-items: center; justify-content: center; border-radius: 50%; }
         .rank-1 .rank-icon { background: #eab308; }
         .rank-title { font-size: 22px; font-weight: bold; }
-
         footer { text-align: center; padding: 20px; background-color: #1e293b; color: #94a3b8; font-size: 12px; }
     </style>
 </head>
 <body>
-
-<header>
-    <h1><a href="../index.html" style="color: inherit;">クリーンサイト</a></h1>
-</header>
-
-<div class="breadcrumb">
-    <a href="../index.html">ホーム</a> > ペット用品 > 脱臭・清掃グッズ比較
-</div>
-
+<header><h1><a href="../index.html" style="color: inherit;">クリーンサイト</a></h1></header>
+<div class="breadcrumb"><a href="../index.html">ホーム</a> > ペット用品 > 脱臭・清掃グッズ比較</div>
 <div class="container">
     <h1 class="article-title">【2026年最新】多頭飼いでも臭わない！ペット専用「脱臭・清掃グッズ」徹底比較</h1>
 
-    <img src="images/pets-cleaning.png" alt="多頭飼いでも臭わない！ペット専用脱臭・清掃グッズの比較" style="width: 100%; border-radius: 8px; margin-bottom: 20px;">
+    <img src="pets-cleaning-v2.png" alt="多頭飼いでも臭わない！ペット専用脱臭・清掃グッズの比較。1位の生成水やモダンな脱臭機が並ぶ" style="width: 100%; border-radius: 8px; margin-bottom: 20px;">
     
     <div class="article-lead">
         <p>愛犬との暮らしは最高ですが、多頭飼いになると避けられないのが「家の中のニオイ」と「掃除」の悩み。市販の消臭剤では追いつかない、あるいは香料で誤魔化しているだけの場合も多いです。本記事では、<strong>「菌から分解する脱臭力」「愛犬が舐めても安心な成分」「ランニングコスト」</strong>の3軸で、本当に効果があった掃除グッズを比較しました。</p>
     </div>
-
     <h2 style="margin-bottom: 15px; font-size: 20px;">脱臭・清掃効率スペック比較表</h2>
-    
-    <div class="scroll-hint-container">
-        <div class="scroll-hint">
-            <span class="hand-icon">👈</span> 表を横にスクロール <span class="hand-icon">👉</span>
-        </div>
-    </div>
-    
+    <div class="scroll-hint-container"><div class="scroll-hint"><span class="hand-icon">👈</span> 表を横にスクロール <span class="hand-icon">👉</span></div></div>
     <div class="comparison-wrapper">
         <table class="comparison-table">
-            <tr>
-                <th>製品タイプ</th>
-                <th>脱臭・除菌力</th>
-                <th>安全性(舐めてOK)</th>
-                <th>コスパ(月間)</th>
-                <th>こんな人に最適</th>
-            </tr>
-            <tr>
-                <td class="highlight">1位：次亜塩素酸水(生成)</td>
-                <td>★★★★★</td>
-                <td>★★★★★</td>
-                <td>★★★★★</td>
-                <td>多頭飼いで大量にスプレーを消費する人</td>
-            </tr>
-            <tr>
-                <td class="highlight">2位：ジアイーノ(空間除菌)</td>
-                <td>★★★★★</td>
-                <td>★★★★☆</td>
-                <td>★★☆☆☆</td>
-                <td>リビング全体のニオイを根本解決したい人</td>
-            </tr>
-            <tr>
-                <td class="highlight">3位：カンファペット</td>
-                <td>★★★★☆</td>
-                <td>★★★★★</td>
-                <td>★★★☆☆</td>
-                <td>手軽に持ち運んでピンポイント消臭したい人</td>
-            </tr>
+            <tr><th>製品タイプ</th><th>脱臭・除菌力</th><th>安全性(舐めてOK)</th><th>コスパ(月間)</th><th>こんな人に最適</th></tr>
+            <tr><td class="highlight">1位：次亜塩素酸水(生成)</td><td>★★★★★</td><td>★★★★★</td><td>★★★★★</td><td>多頭飼いで大量にスプレーを消費する人</td></tr>
+            <tr><td class="highlight">2位：ジアイーノ(空間除菌)</td><td>★★★★★</td><td>★★★★☆</td><td>★★☆☆☆</td><td>リビング全体のニオイを根本解決したい人</td></tr>
+            <tr><td class="highlight">3位：カンファペット</td><td>★★★★☆</td><td>★★★★★</td><td>★★★☆☆</td><td>手軽に持ち運んでピンポイント消臭したい人</td></tr>
         </table>
     </div>
-
     <div class="ranking-item rank-1">
         <div class="rank-header"><div class="rank-icon">1</div><h3 class="rank-title">次亜塩素酸水 生成パウダー</h3></div>
-        <p>最も「クリーン」でコスパが良いのが、水に溶かして作るタイプの次亜塩素酸水です。ペットショップで売られている高いスプレーの数分の一のコストで、強力な除菌脱臭水が作れます。ニオイの元となる菌を分解した後は水に戻るため、愛犬が歩くフローリングやトイレの清掃に最も安全です。</p>
+        <p>ニオイの元となる菌を分解した後は水に戻るため、フローリングやトイレの清掃に最も安全です。</p>
     </div>
-
     <div class="ranking-item">
         <div class="rank-header"><div class="rank-icon" style="background: #94a3b8;">2</div><h3 class="rank-title">パナソニック ジアイーノ</h3></div>
-        <p>空気清浄機ではなく「空間除菌脱臭機」。空気中に漂うニオイだけでなく、布製品に付着した菌まで抑制します。多頭飼い特有の「家に入った瞬間のニオイ」を消し去る力は、現存する家電の中で最高峰です。</p>
+        <p>多頭飼い特有の「家に入った瞬間のニオイ」を消し去る力は、現存する家電の中で最高峰です。</p>
     </div>
-
     <div class="related-articles">
         <h3 class="related-title">この記事を読んだ方におすすめのランキング</h3>
         <a href="ai-pet-care.html" class="related-link">▶ 【2026年最新】AIで愛犬の健康を守る！AI食事・体調管理術</a>
         <a href="rescue-dog-food.html" class="related-link">▶ 【忖度なし】お腹が弱い保護犬・ミックス犬向け「成分重視フード」徹底比較</a>
     </div>
 </div>
-
-<footer>
-    <p>&copy; 2026 クリーンサイト All Rights Reserved.</p>
-</footer>
-
+<footer><p>&copy; 2026 クリーンサイト All Rights Reserved.</p></footer>
 </body>
 </html>
