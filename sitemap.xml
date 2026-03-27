@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://tomokazu-hoshi.github.io/cleansite/index.html</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://tomokazu-hoshi.github.io/cleansite/about.html</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://tomokazu-hoshi.github.io/cleansite/contact.html</loc>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://tomokazu-hoshi.github.io/cleansite/ai-dx/category.html</loc>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://tomokazu-hoshi.github.io/cleansite/horse-racing/category.html</loc>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://tomokazu-hoshi.github.io/cleansite/pets/category.html</loc>
+    <priority>0.9</priority>
+  </url>
+
+  <url><loc>https://tomokazu-hoshi.github.io/cleansite/ai-dx/free-tools.html</loc><priority>0.7</priority></url>
+  <url><loc>https://tomokazu-hoshi.github.io/cleansite/ai-dx/zero-cost-seo-sns.html</loc><priority>0.7</priority></url>
+  <url><loc>https://tomokazu-hoshi.github.io/cleansite/ai-dx/site-builders.html</loc><priority>0.7</priority></url>
+  <url><loc>https://tomokazu-hoshi.github.io/cleansite/ai-dx/ai-writing-tools.html</loc><priority>0.7</priority></url>
+  <url><loc>https://tomokazu-hoshi.github.io/cleansite/ai-dx/no-code-app-builders.html</loc><priority>0.7</priority></url>
+
+  <url><loc>https://tomokazu-hoshi.github.io/cleansite/horse-racing/prediction-tools.html</loc><priority>0.7</priority></url>
+  <url><loc>https://tomokazu-hoshi.github.io/cleansite/horse-racing/betting-sites.html</loc><priority>0.7</priority></url>
+  <url><loc>https://tomokazu-hoshi.github.io/cleansite/horse-racing/free-prediction-sites.html</loc><priority>0.7</priority></url>
+  <url><loc>https://tomokazu-hoshi.github.io/cleansite/horse-racing/ai-racing-tools.html</loc><priority>0.7</priority></url>
+  <url><loc>https://tomokazu-hoshi.github.io/cleansite/horse-racing/pedigree-sites.html</loc><priority>0.7</priority></url>
+
+  <url><loc>https://tomokazu-hoshi.github.io/cleansite/pets/rescue-dog-goods.html</loc><priority>0.7</priority></url>
+  <url><loc>https://tomokazu-hoshi.github.io/cleansite/pets/rescue-dog-food.html</loc><priority>0.7</priority></url>
+  <url><loc>https://tomokazu-hoshi.github.io/cleansite/pets/durable-toys.html</loc><priority>0.7</priority></url>
+  <url><loc>https://tomokazu-hoshi.github.io/cleansite/pets/ai-pet-care.html</loc><priority>0.7</priority></url>
+  <url><loc>https://tomokazu-hoshi.github.io/cleansite/pets/cleaning-goods.html</loc><priority>0.7</priority></url>
+
+  <url><loc>https://tomokazu-hoshi.github.io/cleansite/life-services/niche-cleaning.html</loc><priority>0.7</priority></url>
+</urlset>
