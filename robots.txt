@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://tomokazu-hoshi.github.io/cleansite/sitemap.xml
